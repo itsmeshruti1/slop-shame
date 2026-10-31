@@ -77,7 +77,7 @@
 .tool:active { transform: translate(3px, 3px); box-shadow: 0 0 0 var(--navy); }
 .tool:disabled { opacity: 0.6; cursor: progress; }
 .tool.primary { background: #9be33b; }
-.tool.close { background: #e9ebf2; }
+.tool.modal-close { background: #e9ebf2; }
 .tool .tool-ico { width: 26px; height: 26px; margin: -6px 0 -6px -6px; }
 .tool:focus-visible, .backdrop:focus-visible { outline: 3px solid #71b7fb; outline-offset: 2px; }
 
