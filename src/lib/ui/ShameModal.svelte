@@ -166,7 +166,7 @@
       </button>
       <button class="tool" onclick={copy}>Copy text</button>
       <button class="tool" onclick={download} disabled={busy}>{busy ? 'Rendering…' : 'Download image'}</button>
-      <button class="tool modal-close" onclick={onClose} aria-label="Close">Close</button>
+      <button class="tool close" onclick={onClose} aria-label="Close">Close</button>
     </div>
     <label class="share">
       <input type="checkbox" bind:checked={includeName} />
